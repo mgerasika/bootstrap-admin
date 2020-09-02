@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-admin",
+  "version": "1.0.0",
+  "description": "heroku git:remote -a docker-bootstrap-admin\r heroku stack:set container",
+  "main": "index.js",
+  "dependencies": {
+    "serve": "^11.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "serve" : "serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgerasika/bootstrap-admin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgerasika/bootstrap-admin/issues"
+  },
+  "homepage": "https://github.com/mgerasika/bootstrap-admin#readme"
+}
