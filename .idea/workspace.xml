@@ -34,16 +34,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-portal-storybook" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\git\FLIPDISH\bootstrap-admin\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\git\FLIPDISH\bootstrap-admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\FLIPDISH\bootstrap-admin\src" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599019806208</updated>
       <workItem from="1599019807461" duration="7281000" />
+      <workItem from="1599027375481" duration="1064000" />
     </task>
     <servers />
   </component>
@@ -71,8 +72,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1599027737731">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="740" y="335" key="FileChooserDialogImpl/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599027737731" />
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1599029108501">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="321" key="GridCell.Tab.0.bottom/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599029108501" />
+    <state width="1899" height="321" key="GridCell.Tab.0.center" timestamp="1599029108501">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="321" key="GridCell.Tab.0.center/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599029108501" />
+    <state width="1899" height="321" key="GridCell.Tab.0.left" timestamp="1599029108500">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="321" key="GridCell.Tab.0.left/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599029108500" />
+    <state width="1899" height="321" key="GridCell.Tab.0.right" timestamp="1599029108501">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1899" height="321" key="GridCell.Tab.0.right/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599029108501" />
   </component>
 </project>
