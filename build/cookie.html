@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cookies Modal</title>
+  <script src="https://flipdish-cookie-consent.s3-eu-west-1.amazonaws.com/www/production/latest/fd-cc.js" type="text/javascript" />
+</head>
+
+<body>
+<h2>Cookie consent</h2>
+<a href="index.html.html">web-order</a>
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <button onclick="window.fdCc.init({
+      restaurantName: 'Super pizza',
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/600px-MasterCard_Logo.svg.png',
+      lang: 'en',
+      cookiePolicyUrl: 'https://www.cookiebot.com/en/privacy-policy-generator-gdpr/'
+    }, function cb(selection){
+      document.write(JSON.stringify(selection))
+     })">Init</button>
+  <button onclick="window.fdCc.edit({
+      restaurantName: 'Cool pizza',
+      logoUrl: '',
+      lang: 'en',
+      cookiePolicyUrl: 'https://www.cookiebot.com/en/privacy-policy-generator-gdpr/'
+    }, function cb(selection){
+      document.write(JSON.stringify(selection))
+     })">Edit</button>
+</div>
+
+<!-- Java Script inserting markup dynamicly -->
+</body>
+
+</html>

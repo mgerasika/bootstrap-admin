@@ -11,7 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2b7df41-dbde-4bc0-a66c-9f3fde3b0afe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/cookie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +37,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-portal-storybook" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-order" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\git\FLIPDISH\bootstrap-admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\git\FLIPDISH\bootstrap-admin\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\FLIPDISH\bootstrap-admin\build" />
+      <recent name="D:\git\FLIPDISH\bootstrap-admin" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,6 +60,10 @@
       <updated>1599019806208</updated>
       <workItem from="1599019807461" duration="7281000" />
       <workItem from="1599027375481" duration="1064000" />
+      <workItem from="1599032624796" duration="383000" />
+      <workItem from="1599033304304" duration="67000" />
+      <workItem from="1599036118023" duration="1191000" />
+      <workItem from="1599146491171" duration="586000" />
     </task>
     <servers />
   </component>
@@ -78,10 +86,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1599027737731">
+    <state x="740" y="335" key="FileChooserDialogImpl" timestamp="1599146806784">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="740" y="335" key="FileChooserDialogImpl/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599027737731" />
+    <state x="740" y="335" key="FileChooserDialogImpl/1920.0.1280.984/-1920.0.1920.1160/0.0.1920.1160@0.0.1920.1160" timestamp="1599146806784" />
     <state width="1899" height="321" key="GridCell.Tab.0.bottom" timestamp="1599029108501">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
