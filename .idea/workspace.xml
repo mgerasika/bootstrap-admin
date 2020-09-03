@@ -11,10 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2b7df41-dbde-4bc0-a66c-9f3fde3b0afe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/cookie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/cookie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1599032624796" duration="383000" />
       <workItem from="1599033304304" duration="67000" />
       <workItem from="1599036118023" duration="1191000" />
-      <workItem from="1599146491171" duration="586000" />
+      <workItem from="1599146491171" duration="1252000" />
     </task>
     <servers />
   </component>
