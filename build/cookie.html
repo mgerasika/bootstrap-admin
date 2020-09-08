@@ -9,26 +9,44 @@
 </head>
 
 <body>
-<h2>Cookie consent</h2>
-<a href="index.html.html">web-order</a>
+
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+  <select id="locales" onchange="console.log(event.target.value);window.fdCc.edit({lang:event.target.value})">
+  </select>
   <button onclick="window.fdCc.init({
       restaurantName: 'Super pizza',
       logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/600px-MasterCard_Logo.svg.png',
       lang: 'en',
       cookiePolicyUrl: 'https://www.cookiebot.com/en/privacy-policy-generator-gdpr/'
     }, function cb(selection){
-      document.write(JSON.stringify(selection))
-     })">Init</button>
+      console.log('init callback ', selection);
+     })">init</button>
   <button onclick="window.fdCc.edit({
       restaurantName: 'Cool pizza',
       logoUrl: '',
       lang: 'en',
       cookiePolicyUrl: 'https://www.cookiebot.com/en/privacy-policy-generator-gdpr/'
     }, function cb(selection){
-      document.write(JSON.stringify(selection))
-     })">Edit</button>
+      console.log('edit callback ', selection);
+     })">edit</button>
+
+
+  <button onclick="console.log(window.fdCc.getConsentCookies())">getConsentCookies</button>
+  <button onclick="window.fdCc.setConsentCookies(['functional']);console.log(window.fdCc.getConsentCookies())">setConsentCookies</button>
+
 </div>
+
+<script type="text/javascript">
+  window.addEventListener('load',()=>{
+    const localesEl = document.getElementById("locales");
+    window.fdCc.getLocales().forEach(l=>{
+      const opt = document.createElement("option");
+      opt.setAttribute("value", l.code);
+      opt.innerHTML = `${l.name} (${l.code})`;
+      localesEl.appendChild(opt);
+    })
+  })
+</script>
 
 <!-- Java Script inserting markup dynamicly -->
 </body>
